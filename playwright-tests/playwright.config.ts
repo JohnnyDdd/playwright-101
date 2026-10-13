@@ -13,7 +13,7 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
   projects: [
-    { name: 'chromium', use: { browserName: 'chromium' } },
+    { name: 'firefox', use: { browserName: 'firefox' } },
   ],
   reporter: [['html'], ['junit', { outputFile: 'test-results/junit.xml' }]],
 });
